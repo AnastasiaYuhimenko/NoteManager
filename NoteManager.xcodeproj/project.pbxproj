@@ -29,6 +29,23 @@
 		5DC342642EDB01880076CC16 /* NoteManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5DC3427A2EDB02B40076CC16 /* Exceptions for "NoteManagerUITests" folder in "NoteManager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = 5DC3424C2EDB01850076CC16 /* NoteManager */;
+		};
+		5DC3427B2EDB02B40076CC16 /* Exceptions for "NoteManagerUITests" folder in "NoteManagerUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = 5DC342632EDB01880076CC16 /* NoteManagerUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5DC3424F2EDB01850076CC16 /* NoteManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +59,10 @@
 		};
 		5DC342672EDB01880076CC16 /* NoteManagerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5DC3427A2EDB02B40076CC16 /* Exceptions for "NoteManagerUITests" folder in "NoteManager" target */,
+				5DC3427B2EDB02B40076CC16 /* Exceptions for "NoteManagerUITests" folder in "NoteManagerUITests" target */,
+			);
 			path = NoteManagerUITests;
 			sourceTree = "<group>";
 		};
